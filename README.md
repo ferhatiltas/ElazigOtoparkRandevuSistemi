@@ -13,3 +13,21 @@ Adım 4: Intellij de projeyi açın ve çalıştırın.
 
 Not: Projenin çalışma anının videosu (Elazığ Otopark Randevu Sistemi Video) adlı klasörde yer almaktadır.
 
+
+```bash
+# Clone this project
+$ git clone https://github.com/ferhatiltas/ElazigOtoparkRandevuSistemi
+
+# Access
+$ cd ElazigOtoparkRandevuSistemi
+
+# Pull dependencies
+$ flutter pub get
+
+# Run the project (emulator or physical device needs to be connected first)
+$ flutter run
+
+# Build an apk
+$ flutter build apk --split-per-abi
+```
+
